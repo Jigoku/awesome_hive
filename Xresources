@@ -1,0 +1,72 @@
+Xft.antialias:           true
+Xft.hinting:             true
+Xft.hintstyle:           hintfull
+Xft.autohint:            true
+URxvt.letterSpace:       0
+URxvt.font:              xft:GohuFont:Size=9:antialias=true
+URxvt*iconFile:          /home/ricky/.config/awesome/themes/hive/icons/awesome.png
+URxvt.utf8:              true
+URxvt.geometry:          85x25
+URxvt*internalBorder:    15
+URxvt.iso14755:          false
+! URxvt.perl-ext-common:   default,matcher,fullscreen,new-window
+URxvt.perl-ext-common:   default,matcher,new-window
+URxvt.url-launcher:      /usr/bin/firefox
+URxvt.matcher.button:    1
+! URxvt.keysym.F11:        perl:fullscreen:switch
+URxvt.keysym.C-N:        perl:new-window
+URxvt*selectToClipboard: true
+URxvt*colorUL:           #ffaaaa
+URxvt*underlineColor:    #aa5555
+URxvt.scrollstyle:       plain
+URxvt*scrollBar_right:   true
+URxvt*scrollBar:	 false
+URxvt*scrollColor:       #8C4B46
+URxvt*scrollTtyKeypress: true
+URxvt*scrollTtyOutput:   false
+URxvt*scrollWithBuffer:  true
+URxvt*thickness:         1
+URxvt*saveLines:         65535
+URxvt*cursorUnderline:   true
+URxvt*buffered:          true
+URxvt*shading:           20
+URxvt.inheritPixmap:     false
+URxvt*background:        [80]#0b1317
+URxvt.depth:             32
+
+! special
+*.foreground:   #dddddd
+*.background:   #0b1317
+*.cursorColor:  #a899c1
+
+! black
+*.color0:       #1f3542
+*.color8:       #182c35
+
+! red
+*.color1:       #5c7190
+*.color9:       #404e63
+
+! green
+*.color2:       #a0a5b0
+*.color10:      #747880
+
+! yellow
+*.color3:       #6693a6
+*.color11:      #4e707e
+
+! blue
+*.color4:       #574f64
+*.color12:      #3b3644
+
+! magenta
+*.color5:       #1f74a3
+*.color13:      #0d4d6e
+
+! cyan
+*.color6:       #d29a3d
+*.color14:      #9b722d
+
+! white
+*.color7:       #d0cfd9
+*.color15:      #9e9da5
